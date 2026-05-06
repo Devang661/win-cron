@@ -1,0 +1,18 @@
+# Runtime state
+cron.log
+cron.log.bak-*
+cron.state.json
+cron.pid
+dashboard.html
+task-output/
+
+# Local Claude settings
+.claude/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.log

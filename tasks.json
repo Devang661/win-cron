@@ -1,0 +1,33 @@
+{
+  "gitBashPath": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "defaultAllowedTools": "Read,Write,Edit,Glob,Grep",
+  "tasks": [
+    {
+      "name": "obsidian-daily-summary",
+      "enabled": false,
+      "everyMinutes": 1440,
+      "workDir": "C:\\Users\\Cheng\\Downloads\\zsq-ob",
+      "allowedTools": "Read,Write,Edit,Glob,Grep",
+      "prompt": [
+        "Review this Obsidian vault for notes updated today ({date}).",
+        "Ignore the .obsidian directory, plugin files, cache files, images, and attachments unless a Markdown note explicitly references them.",
+        "Create or update a Chinese Markdown summary at raw/_Daily-Summaries/obsidian-summary-{date}.md.",
+        "Include: updated note list, key changes, new ideas, open questions, possible follow-up tasks, and links to the original notes using relative Markdown links.",
+        "If no notes were updated today, write a short summary saying no Markdown notes changed today."
+      ]
+    },
+    {
+      "name": "example-local-note-task",
+      "enabled": false,
+      "everyMinutes": 1440,
+      "workDir": "C:\\Path\\To\\Your\\Workspace",
+      "allowedTools": "Read,Write,Edit,Glob,Grep",
+      "prompt": [
+        "Today is {date}.",
+        "Describe your task here.",
+        "Write outputs in Chinese unless the user asks otherwise."
+      ]
+    }
+  ]
+}
+
