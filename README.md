@@ -2,6 +2,19 @@
 
 这是一个可复制到另一台 Windows PC 的 Claude Code 定时任务小包。它用 Windows 计划任务每隔几分钟唤醒一次，然后读取 `tasks.json`，只运行已经到期的任务。
 
+
+
+## 安装办法
+
+｛
+
+https://github.com/Devang661/win-cron
+给我安装这个东西，看一下那个 read me 的部分，然后帮我配置一个简单的（每天早上 6 点钟向我问候的作为例子）
+
+｝
+
+括号中的可以替换掉成自己的， 把大括号的东西喂给 Claude Code 或者是 codex
+
 ## 文件说明
 
 - `tasks.json`：你真正需要编辑的任务配置。
